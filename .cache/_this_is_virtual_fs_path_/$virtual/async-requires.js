@@ -6,9 +6,12 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("./../../../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-agile-js": () => import("./../../../src/pages/agile.js" /* webpackChunkName: "component---src-pages-agile-js" */),
+  "component---src-pages-dan-js": () => import("./../../../src/pages/Dan.js" /* webpackChunkName: "component---src-pages-dan-js" */),
   "component---src-pages-fishbone-js": () => import("./../../../src/pages/fishbone.js" /* webpackChunkName: "component---src-pages-fishbone-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-joe-js": () => import("./../../../src/pages/Joe.js" /* webpackChunkName: "component---src-pages-joe-js" */),
-  "component---src-pages-quiz-js": () => import("./../../../src/pages/quiz.js" /* webpackChunkName: "component---src-pages-quiz-js" */)
+  "component---src-pages-kim-js": () => import("./../../../src/pages/Kim.js" /* webpackChunkName: "component---src-pages-kim-js" */),
+  "component---src-pages-quiz-js": () => import("./../../../src/pages/quiz.js" /* webpackChunkName: "component---src-pages-quiz-js" */),
+  "component---src-pages-storymap-js": () => import("./../../../src/pages/storymap.js" /* webpackChunkName: "component---src-pages-storymap-js" */)
 }
 
