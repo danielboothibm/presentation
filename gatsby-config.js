@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `DevOps Apprentices`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `IBM DevOps 2021 Apprentices`, //DevOps Apprentices (Remove on next commit)
+    description: `IBM DevOps Apprentice intake March 2021 website developed for end of intake presentation.`,
+    author: `Joe Targett, Daniel Booth and Kimberly Mabika`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `DevOps Apprentices`,
+        name: `IBM DevOps 2021 Apprentices`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

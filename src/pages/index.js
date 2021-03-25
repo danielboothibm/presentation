@@ -8,20 +8,23 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new DevOps site.</p>
-    <p>Now go build something great.</p>
+    <h1 style={{textAlign: "center"}}>Welcome to the team DevOps presentation</h1>
+    <ul style={{listStyleType:"square", textAlign:"center", fontWeight: "bold"}}>
+      <li>Why did you choose an apprenticeship and why IBM?</li>
+      <li>How did you get this far, give us a summary of your educational background and previous work experience?</li>
+      <li>Explain what you have learned about yourself during this induction, and what do you hope to achieve in the following year?</li>
+    </ul>
     <StaticImage
-      src="../images/golden-circle.jpeg"
-      width={300}
+      src="../images/golden-circle.png"
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      alt="The Golden Circle"
+      style={{ marginBottom: `1.45rem`,
+      marginLeft: "auto",
+      marginRight: "auto",
+      display: "block",
+      width: "25vw"}}
     />
-    <p>
-      <Link to="/fishbone/">Dan: Question 1, Fishbone Graph</Link>
-    </p>
   </Layout>
 )
 
