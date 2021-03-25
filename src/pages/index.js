@@ -22,6 +22,9 @@ const IndexPage = () => (
     <p>
       <Link to="/fishbone/">Dan: Question 1, Fishbone Graph</Link>
     </p>
+    <p>
+      <Link to="/storymap/">Dan: Question 2, Story Map</Link>
+    </p>
   </Layout>
 )
 
